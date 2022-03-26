@@ -45,7 +45,7 @@ class AlumnoController{
     public function Guardar(){
         $alm = new Alumno();
         
-
+        $alm->id = $_REQUEST['id'];
         $alm->client_name = $_REQUEST['Client_name'];
         $alm->team = $_REQUEST['Team'];
         $alm->request = $_REQUEST['Request'];
