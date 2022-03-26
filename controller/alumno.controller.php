@@ -24,17 +24,32 @@ class AlumnoController{
         }
         
         require_once 'view/header.php';
-        require_once 'view/alumno/alumno-editar.php';
+        require_once 'view/alumno/alumno-editar.php'; 
+        require_once 'view/footer.php';
+    }
+
+
+    public function Nuevo(){
+       
+        
+        if(isset($_REQUEST['id'])){
+            $alm = new Alumno();
+            $alm = $this->model->Obtener($_REQUEST['id']);
+        }
+        
+        require_once 'view/header.php';
+        require_once 'view/alumno/alumno-nuevo.php';
         require_once 'view/footer.php';
     }
     
     public function Guardar(){
         $alm = new Alumno();
         
-        $alm->id = $_REQUEST['id'];
+
         $alm->client_name = $_REQUEST['Client_name'];
         $alm->team = $_REQUEST['Team'];
         $alm->request = $_REQUEST['Request'];
+        $alm->date = $_REQUEST['Date'];
         
 
         $alm->id > 0 

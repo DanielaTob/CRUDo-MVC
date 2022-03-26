@@ -97,8 +97,9 @@ class Alumno
 	{
 		try 
 		{
-		$sql = "INSERT INTO consultas (Client_name,Team,Request) 
-		        VALUES (?, ?, ?)";
+		$sql = "INSERT INTO consultas (Client_name,Team,Request, date) 
+		        VALUES (?, ?, ?, ?)";
+
 
 		$this->pdo->prepare($sql)
 		     ->execute(
@@ -106,12 +107,13 @@ class Alumno
                     $data->client_name,
                     $data->team, 
                     $data->request, 
-                    date('Y-m-d')
+                    $data->date
                 )
 			);
 		} catch (Exception $e) 
 		{
 			die($e->getMessage());
 		}
+		
 	}
 }
