@@ -1,8 +1,6 @@
-<h1 class="page-header">CRUDo</h1>
+<div class="container">
 
-<div class="well well-sm text-right">
-    <a class="btn btn-primary" href="?c=Alumno&a=Crud">Nueva cita</a>
-</div>
+
 
 <table class="table table-striped">
     <thead>

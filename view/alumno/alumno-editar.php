@@ -1,3 +1,4 @@
+<div class="container">
 <h1 class="page-header">
     <?php echo $alm->id != null ? $alm->client_name : 'Nuevo Registro'; ?>
 </h1>
@@ -12,17 +13,17 @@
     
     <div class="form-group">
         <label>Nombre</label>
-        <input type="text" name="Client_name" value="<?php echo $alm->client_name; ?>" class="form-control" placeholder="Ingrese su nombre" data-validacion-tipo="requerido|min:3" />
+        <input type="text" name="Client_name" value="<?php echo $alm->client_name; ?>" class="form-control" placeholder="Ingrese su nombre" />
     </div>
     
     <div class="form-group">
         <label>Team</label>
-        <input type="text" name="Team" value="<?php echo $alm->team; ?>" class="form-control" placeholder="Ingrese su apellido" data-validacion-tipo="requerido|min:10" />
+        <input type="text" name="Team" value="<?php echo $alm->team; ?>" class="form-control" placeholder="Ingrese su apellido"  />
     </div>
 
     <div class="form-group">
         <label>Request</label>
-        <input type="text" name="Request" value="<?php echo $alm->request; ?>" class="form-control" placeholder="Ingrese su apellido" data-validacion-tipo="requerido|min:10" />
+        <input type="text" name="Request" value="<?php echo $alm->request; ?>" class="form-control" placeholder="Ingrese su apellido" />
     </div>
     
     
@@ -38,10 +39,3 @@
     </div>
 </form>
 
-<script>
-    $(document).ready(function(){
-        $("#frm-alumno").submit(function(){
-            return $(this).validate();
-        });
-    })
-</script>

@@ -98,7 +98,7 @@ class Alumno
 		try 
 		{
 		$sql = "INSERT INTO consultas (Client_name,Team,Request) 
-		        VALUES (?, ?, ?, ?)";
+		        VALUES (?, ?, ?)";
 
 		$this->pdo->prepare($sql)
 		     ->execute(
