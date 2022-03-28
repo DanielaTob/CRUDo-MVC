@@ -1,5 +1,5 @@
 <?php
-class Alumno
+class Cita
 {
 	private $pdo;
     
@@ -93,7 +93,7 @@ class Alumno
 		}
 	}
 
-	public function Registrar(Alumno $data)
+	public function Registrar(Cita $data)
 	{
 		try 
 		{

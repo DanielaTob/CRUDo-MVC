@@ -1,7 +1,7 @@
 <?php
 require_once 'model/database.php';
 
-$controller = 'alumno';
+$controller = 'cita';
 
 
 // Todo esta lógica hara el papel de un FrontController

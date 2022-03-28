@@ -4,11 +4,11 @@
 </h1>
 
 <ol class="breadcrumb">
-  <li><a href="?c=Alumno">Cita</a></li>
+  <li><a href="?c=Cita">Cita</a></li>
   <li class="active"><?php echo $alm->id != null ? $alm->client_name : 'Nuevo Registro'; ?></li>
 </ol>
 
-<form id="frm-alumno" action="?c=Alumno&a=Guardar" method="post" enctype="multipart/form-data">
+<form id="frm-cita" action="?c=Cita&a=Guardar" method="post" enctype="multipart/form-data">
     <input type="hidden" name="id" value="<?php echo $alm->id; ?>" />
     
     <div class="form-group">
