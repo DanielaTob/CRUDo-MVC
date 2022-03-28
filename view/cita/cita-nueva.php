@@ -33,7 +33,8 @@
     
     <hr />
     
-    <div class="text-right">
+    <div class="text-right pb-4">
         <button class="btn btn-success">Guardar</button>
     </div>
 </form>
+</div>

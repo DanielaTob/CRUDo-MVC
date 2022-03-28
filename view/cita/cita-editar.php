@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container pb-4">
 <h1 class="page-header">
     <?php echo $alm->id != null ? $alm->client_name : 'Nuevo Registro'; ?>
 </h1>
@@ -39,4 +39,5 @@
         <button class="btn btn-success">Guardar</button>
     </div>
 </form>
+</div>
 
