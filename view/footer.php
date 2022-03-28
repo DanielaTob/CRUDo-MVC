@@ -1,8 +1,8 @@
-<div class="container-fluis">
+<div>
 
   <footer class="bg-white shadow-lg text-center text-lg-start text-white">
 
-    <div class="container p-4">
+    <div class="container pt-4">
 
       <div class="row">
 
@@ -77,13 +77,13 @@
 
           <ul class="list-unstyled text-dark">
             <li>
-              <p><i class="fas fa-map-marker-alt pe-2"></i>Bogotá, Colombia calle 21</p>
+              <p><i class="bi bi-geo-alt-fill pe-2 text-primary"></i>Bogotá, Colombia calle 21</p>
             </li>
             <li>
-              <p><i class="fas fa-phone pe-2"></i>+ 57 234 567 89</p>
+              <p><i class="bi bi-telephone-fill pe-2 text-primary"></i>+ 57 234 567 89</p>
             </li>
             <li>
-              <p><i class="fas fa-envelope pe-2 mb-0"></i>contactcrudo@gmail.com</p>
+              <p><i class="bi bi-envelope-check-fill pe-2 text-primary"></i>contactcrudo@gmail.com</p>
             </li>
           </ul>
         </div>
