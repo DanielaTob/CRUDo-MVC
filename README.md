@@ -44,8 +44,7 @@ min-width="25px" max-width="35px" width="35px" align="center" alt="html"> aplica
 <img src="https://user-images.githubusercontent.com/97111500/160455506-82fc158d-8260-4348-8ad1-9cf03ce5701d.png" 
 min-width="25px" max-width="35px" width="35px" align="center" alt="bootstrap"> .
 
-<p>Para ver el despliegue correspondiente por favor dirijase a la publicación disponible en Heroku <img src="https://user-images.githubusercontent.com/97111500/160456654-7c780e25-530e-405e-9360-3b29444dd33a.png" 
-min-width="25px" max-width="35px" width="35px" align="center" alt="heroku"> </br>
+<p>El demo se encuentra en linea, por favor dirijase a la publicación disponible en infinityfree  <img src="https://user-images.githubusercontent.com/97111500/160496223-2ee514c4-a861-45e5-ac5d-139f33697f06.png" min-width="25px" max-width="35px" width="35px" align="center" alt="infinity"> http://crudoapp.epizy.com/mvc/ </br>
 
 Para la ejecución local debe contar con Node.js instalado <img src="https://user-images.githubusercontent.com/97111500/160457574-a652c8f8-6e17-4dda-9ee0-b7d72d3213a8.png" 
 min-width="25px" max-width="35px" width="35px" align="center" alt="bootstrap"> ademas de Apache y Mysql, por lo que le sugerimos instalar XAMPP desde https://www.apachefriends.org/es/index.html. </BR></br>
