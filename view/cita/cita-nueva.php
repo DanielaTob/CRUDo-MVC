@@ -4,7 +4,7 @@
 </h1>
 
 <ol class="breadcrumb">
-  <li><a href="?c=Cita">Cita</a></li>
+  <li><a href="?c=Cita">Atrás</a></li>
 </ol>
 
 <form id="frm-cita" action="?c=Cita&a=Guardar" method="post" enctype="multipart/form-data">

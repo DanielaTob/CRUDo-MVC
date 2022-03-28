@@ -12,7 +12,6 @@ class CitaController{
     public function Index(){
         require_once 'view/header.php';
         require_once 'view/banner.php';
-        require_once 'view/cita/cita.php';
         require_once 'view/footer.php';
     }
     
@@ -39,6 +38,19 @@ class CitaController{
         
         require_once 'view/header.php';
         require_once 'view/cita/cita-nueva.php';
+        require_once 'view/footer.php';
+    }
+
+    public function Citas(){
+       
+        
+        if(isset($_REQUEST['id'])){
+            $alm = new Cita();
+            $alm = $this->model->Obtener($_REQUEST['id']);
+        }
+        
+        require_once 'view/header.php';
+        require_once 'view/cita/cita.php';
         require_once 'view/footer.php';
     }
     

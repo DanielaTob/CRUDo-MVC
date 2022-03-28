@@ -1,8 +1,11 @@
 <div class="container">
 
 
-
-<table class="table table-striped">
+<div class="table-responsive">
+<ol class="breadcrumb">
+  <li><a href="?c=Cita">Atrás</a></li>
+</ol>
+<table class="table">
     <thead>
         <tr>
             <th>Id</th>
@@ -26,9 +29,10 @@
                 <a href="?c=Cita&a=Crud&id=<?php echo $r->id; ?>">Editar</a>
             </td>
             <td>
-                <a onclick="javascript:return confirm('¿Seguro de eliminar este registro?');" href="?c=Alumno&a=Eliminar&id=<?php echo $r->id; ?>">Eliminar</a>
+                <a onclick="javascript:return confirm('¿Seguro de eliminar este registro?');" href="?c=Cita&a=Eliminar&id=<?php echo $r->id; ?>">Eliminar</a>
             </td>
         </tr>
     <?php endforeach; ?>
     </tbody>
-</table> 
+</table>
+</div> 
