@@ -4,8 +4,9 @@
 </h1>
 
 <ol class="breadcrumb">
-  <li><a href="?c=Cita">Cita</a></li>
-  <li class="active"><?php echo $alm->id != null ? $alm->client_name : 'Nuevo Registro'; ?></li>
+<a href="?c=Cita&a=Citas" class="btn btn-primary"><i class="bi bi-box-arrow-in-left"></i> Atrás</a>
+ 
+ 
 </ol>
 
 <form id="frm-cita" action="?c=Cita&a=Guardar" method="post" enctype="multipart/form-data">
@@ -13,23 +14,23 @@
     
     <div class="form-group">
         <label>Nombre</label>
-        <input type="text" name="Client_name" value="<?php echo $alm->client_name; ?>" class="form-control" placeholder="Ingrese su nombre" />
+        <input type="text" name="Client_name" value="<?php echo $alm->client_name; ?>" class="form-control" placeholder="Ingrese su nombre" required/>
     </div>
     
     <div class="form-group">
-        <label>Team</label>
-        <input type="text" name="Team" value="<?php echo $alm->team; ?>" class="form-control" placeholder="Ingrese su apellido"  />
+        <label>Nombre del equipo</label>
+        <input type="text" name="Team" value="<?php echo $alm->team; ?>" class="form-control" placeholder="Ingrese el nombre del equipo" required/>
     </div>
 
     <div class="form-group">
-        <label>Request</label>
-        <input type="text" name="Request" value="<?php echo $alm->request; ?>" class="form-control" placeholder="Ingrese su apellido" />
+        <label>Tema de consulta</label>
+        <input type="text" name="Request" value="<?php echo $alm->request; ?>" class="form-control" placeholder="Ingrese su tema de consulta" required/>
     </div>
     
     
     <div class="form-group">
-        <label>Date</label>
-        <input readonly type="text" name="Date" value="<?php echo $alm->date; ?>" class="form-control datepicker" placeholder="Ingrese su fecha de nacimiento" data-validacion-tipo="requerido" />
+        <label>Fecha</label>
+        <input type="text" name="Date" value="<?php echo $alm->date; ?>" class="form-control datepicker" placeholder="Ingrese fecha de la cita" required/>
     </div>
     
     <hr />

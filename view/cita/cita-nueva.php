@@ -4,7 +4,7 @@
 </h1>
 
 <ol class="breadcrumb">
-  <li><a href="?c=Cita">Atrás</a></li>
+<a href="?c=Cita" class="btn btn-primary"><i class="bi bi-box-arrow-in-left"></i> Atrás</a>
 </ol>
 
 <form id="frm-cita" action="?c=Cita&a=Guardar" method="post" enctype="multipart/form-data">
@@ -12,23 +12,23 @@
     
     <div class="form-group">
         <label>Nombre</label>
-        <input type="text" name="Client_name"  class="form-control" placeholder="Ingrese su nombre" />
+        <input type="text" name="Client_name"  class="form-control" placeholder="Ingrese su nombre" required/>
     </div>
     
     <div class="form-group">
-        <label>Team</label>
-        <input type="text" name="Team"  class="form-control" placeholder="Ingrese su apellido"  />
+        <label>Nombre del equipo</label>
+        <input type="text" name="Team"  class="form-control" placeholder="Ingrese el nombre del equipo" required />
     </div>
 
     <div class="form-group">
-        <label>Request</label>
-        <input type="text" name="Request" class="form-control" placeholder="Ingrese su apellido" />
+        <label>Tema de consulta</label>
+        <input type="text" name="Request" class="form-control" placeholder="Ingrese su tema de consulta" required/>
     </div>
     
     
     <div class="form-group">
-        <label>Date</label>
-        <input type="text" name="Date" class="form-control datepicker" />
+        <label>Fecha</label>
+        <input type="text" name="Date" class="form-control datepicker" placeholder="Ingrese fecha de la cita" required/>
     </div>
     
     <hr />
