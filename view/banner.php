@@ -1,9 +1,9 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h2 class="display-4 fw-bolder text-primary">BIENVENIDO</h2>
-    <p class="lead">CRUDo, </p>
+    <p class="lead">CRUDo es una aplicación web que le permite al CTO y equipo, resolver problemas técnicos de los equipos de desarrollo. Así mismo, puedes crear tu cita y visualizar o editar las citas creadas. </p>
     <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p>Conoce más a cerca de nuestros servicios, te invitamos a que crees tu cita y así poder solucionar tus problemas.</p>
   </div>
 </div>
 

@@ -51,7 +51,6 @@ class CitaController{
         
         require_once 'view/header.php';
         require_once 'view/cita/cita.php';
-        require_once 'view/footer.php';
     }
     
     public function Guardar(){

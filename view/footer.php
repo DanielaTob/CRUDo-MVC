@@ -1,6 +1,6 @@
 <div>
 
-  <footer class="bg-white shadow-lg text-center text-lg-start text-white">
+  <footer class="bg-light shadow-lg text-center text-lg-start text-white">
 
     <div class="container pt-4">
 
