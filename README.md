@@ -14,7 +14,7 @@ The application allows the registration, modification and deletion of services.
 
 [![Fire-Shot-Capture-033-CRUDo-crudoapp-epizy-com.png](https://i.postimg.cc/8Cb56M9G/Fire-Shot-Capture-033-CRUDo-crudoapp-epizy-com.png)](https://postimg.cc/4KmsC7X2)
 
-## Edit, delete and View appointment
+## Edit-Delete-View appointment
 
 [![Fire-Shot-Capture-034-CRUDo-crudoapp-epizy-com.png](https://i.postimg.cc/1t5zc41q/Fire-Shot-Capture-034-CRUDo-crudoapp-epizy-com.png)](https://postimg.cc/67gwBW3W)
 
