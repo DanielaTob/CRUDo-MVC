@@ -6,17 +6,20 @@ The application allows the registration, modification and deletion of services.
 
 ## Beginning 🚀
 
-<h3>Home</h3>
-<img src="https://user-images.githubusercontent.com/97111500/160471645-2aa103f1-1fe8-43e3-9508-2073964bd4a1.jpg" min-width="350px" max-width="350px" width="350px" align="center" alt="dbase"> </br>
+## Home 
 
-<h3>New appointment</h3>
-<img src="https://user-images.githubusercontent.com/97111500/160472064-ec826dec-ce0d-4e86-b7b0-3c11ebbfcda1.jpg" min-width="350px" max-width="350px" width="350px" align="center" alt="dbase"> </br>
+[![Fire-Shot-Capture-032-CRUDo-crudoapp-epizy-com.png](https://i.postimg.cc/hGXyJ1fz/Fire-Shot-Capture-032-CRUDo-crudoapp-epizy-com.png)](https://postimg.cc/bGjHWb0p)
 
-<h3>Edit appointment</h3>
-<img src="https://user-images.githubusercontent.com/97111500/160472318-53b6842c-f4c0-4312-85fd-f2e40b00c677.jpg" min-width="350px" max-width="350px" width="350px" align="center" alt="dbase"> </br>
+## New appointment
 
-<h3>view appointment</h3>
-<img src="https://user-images.githubusercontent.com/97111500/160472595-22f42360-13f4-488c-8401-6f1dd5b48e83.jpg" min-width="350px" max-width="350px" width="350px" align="center" alt="dbase"> </br>
+[![Fire-Shot-Capture-033-CRUDo-crudoapp-epizy-com.png](https://i.postimg.cc/8Cb56M9G/Fire-Shot-Capture-033-CRUDo-crudoapp-epizy-com.png)](https://postimg.cc/4KmsC7X2)
+
+## Edit, delete and View appointment
+
+[![Fire-Shot-Capture-034-CRUDo-crudoapp-epizy-com.png](https://i.postimg.cc/1t5zc41q/Fire-Shot-Capture-034-CRUDo-crudoapp-epizy-com.png)](https://postimg.cc/67gwBW3W)
+
+[![Fire-Shot-Capture-035-CRUDo-crudoapp-epizy-com.png](https://i.postimg.cc/qBF7ykbN/Fire-Shot-Capture-035-CRUDo-crudoapp-epizy-com.png)](https://postimg.cc/w3hHdddz)
+
 
 ## Deploy 💻
 
