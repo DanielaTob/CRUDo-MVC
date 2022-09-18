@@ -35,5 +35,5 @@ http://crudoapp.epizy.com/mvc/
 
 ## Developers 😺
 * **Daniela Tobar Moreno** [GitHub](https://github.com/DanielaTob)
-* **Jose** [GitHub](https://github.com/JFJ1972)
+
 
